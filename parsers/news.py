@@ -28,7 +28,7 @@ def parse_exact_news(url: str) -> dict:
     news_description_list = soup.find_all("p", attrs={"dir": "auto"})
     full_description = ''
     for news_desc_obj in news_description_list:
-        full_description += news_desc_obj.text + "\n"
+        full_description += " " + news_desc_obj.text.strip()
     return {
         "created_date": soup.find(class_="date").text,
         "views_count": soup.find(class_="view").text,
