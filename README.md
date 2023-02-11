@@ -4,7 +4,7 @@ Simple kun.uz news parser CLI
 ## Installation and run
 * Clone
 ```shell
-git clone https://github.com/ITC-32/kun_uz_parser.git
+git clone https://github.com/ITC-38/kun_uz_parser.git
 
 cd kun_uz_parser
 ```
